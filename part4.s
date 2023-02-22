@@ -91,7 +91,7 @@ DISPLAY:    LDR     R8, =0xFF200020 // base address of HEX3-HEX0
 			
             ORR     R4, R0		 	//R4 <- R4 + R0 (16 zeros, 8bits 10s digit, 8 bits ones digit) 
 			
-			//MY Idea is this
+			
 			//R4<- (8bitsR610sDigit, 8BitsR61sDigit, 8BitsR510sDigit, 8BitsR5OnesDigit)
             ...
 			MOV      R0, R6      //Mov R6 into R0 
